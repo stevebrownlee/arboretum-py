@@ -4,6 +4,5 @@ from interfaces import IAquatic
 
 class RiverDolphin(Animal, ISwimming, IAquatic):
 
-    def __init__(self, gender):
-        self.gender = gender
+    def __init__(self):
         self.active_hours = "morning"

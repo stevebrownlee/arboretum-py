@@ -1,24 +1,21 @@
-import sys
-sys.path.append('../')
+from interfaces import IAquatic
+from interfaces import Identifiable
+from interfaces import IContainsAnimals
+from interfaces import IContainsPlants
+from animals import RiverDolphin
 
-from environments.environment import Environment
-from interfaces.habitats import IBrackish
-from animals.river_dolphin import RiverDolphin
 
+class River(IContainsAnimals, IContainsPlants, Identifiable):
 
-class River(Environment):
-
-    def __init__(self, name):
-      self.name = name
-      self.inhabitants = []
+    def __init__(self):
+      IContainsAnimals.__init__(self)
+      IContainsPlants.__init__(self)
+      Identifiable.__init__(self)
 
     def animal_count(self):
         return "This place has a bunch of animals in it"
 
-    def addInhabitant(self, item):
-        if not isinstance(item, IBrackish):
-            raise TypeError(f"{item} is not of type IBrackish")
-        self.inhabitants.append(item)
+
 
     def __str__(self):
-        return self.name
+        return self.id

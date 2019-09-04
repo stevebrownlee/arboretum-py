@@ -1,9 +1,3 @@
-class IBrackish:
-
-    def __init__(self):
-        self.lives_in_brackish_water: True
-
-
 class ITerrestrial:
 
     def __init__(self):

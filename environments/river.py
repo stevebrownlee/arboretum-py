@@ -1,15 +1,11 @@
-import sys
-sys.path.append('../')
-
-from environments.environment import Environment
-from interfaces.habitats import IAquatic
-from animals.river_dolphin import RiverDolphin
+from .environment import Environment
+from interfaces import IAquatic
+from animals import RiverDolphin
 
 
 class River(Environment):
 
-    def __init__(self, name):
-      self.name = name
+    def __init__(self):
       self.inhabitants = []
 
     def animal_count(self):

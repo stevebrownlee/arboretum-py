@@ -1,37 +1,44 @@
-# Classes we need
-# Arboretum
-  # contains these properties
-    # Enviroment
-        # contains these things
-          # Plant
-          # Animal
-
-#Plant
-  # WildFlower
-  # MangoTree
-  # CoconutTree
-
-# Animal
-  # Butterfly
-  # Dragonfly
-  # RiverDolphin
-
-# Environment
-  # Swamp
-  # Coastline
-  # River
-  # Grassland
-import sys
-sys.path.append('../')
+import os
 
 from arboretum import Arboretum
-from environments.river import River
-from animals.river_dolphin import RiverDolphin
+from actions.annex import annex_habitat
 
-keahua = Arboretum("Keahua Arboretum", "123 HeyIwannaLeiya Lane")
-brackish_river = River("Happy Salty River")
-flipper = RiverDolphin("female")
-brackish_river.addInhabitant(flipper)
-keahua.environments.append(brackish_river)
-print(keahua.__dict__)
-print(keahua.environments[0].inhabitants)
+keahua = Arboretum("Keahua Arboretum", "123 Paukauila Lane")
+
+
+def build_menu():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print("1. Annex Habitat")
+    print("2. Release Animal into Habitat")
+    print("3. Add Plant to Habitat")
+    print("4. Display Facility Report")
+    print("5. Exit")
+
+
+def main_menu():
+    """Show Keahua Action Options
+
+    Arguments: None
+    """
+    build_menu()
+    choice = input(">> ")
+
+    if choice == "1":
+        annex_habitat(keahua)
+
+    if choice == "2":
+        pass
+
+    if choice == "3":
+        pass
+
+    if choice == "4":
+        pass
+
+    if choice == "5":
+        exit()
+
+    if choice != "6":
+        main_menu()
+
+main_menu()

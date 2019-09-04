@@ -1,9 +1,6 @@
-import sys
-sys.path.append('../')
-
-from animals.animal import Animal
-from interfaces.movements import ISwimming
-from interfaces.habitats import IAquatic
+from animals import Animal
+from interfaces import ISwimming
+from interfaces import IAquatic
 
 class RiverDolphin(Animal, ISwimming, IAquatic):
 

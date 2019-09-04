@@ -2,4 +2,5 @@ class Arboretum:
     def __init__(self, name, address):
         self.name = name
         self.address = address
-        self.environments = []
+        self.rivers = []
+        self.grasslands = []

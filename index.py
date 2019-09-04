@@ -1,3 +1,10 @@
+# 1. Wild flowers (swamp, coastline, river)
+# 2. Mango trees (coastline)
+# 3. Coconut trees (river)
+# 4. Butterflies (swamp, grassland)
+# 5. Dragonflies (swamp)
+# 6. River dolphins (coastline, river) (edited)
+
 # Classes we need
 # Arboretum
   # contains these properties

@@ -106,7 +106,7 @@ If the user chooses 2 from the main menu, then she should see the following menu
 6. 'Ulae
 7. Ope'ape'a
 
-Choose animals to purchase.
+Choose animal.
 > _
 ```
 
@@ -135,9 +135,46 @@ Where would you like to release the Ope'ape'a?
 > _
 ```
 
-### Plant Cultivation Menu
+### Animal Feeding Menu
 
 If the user chooses 3 from the main menu, then she should see the following menu, with the plants listed.
+
+```html
+1. Gold Dust Day Gecko
+2. River Dolphin
+3. Nene Goose
+4. Kīkākapu
+5. Pueo
+6. 'Ulae
+7. Ope'ape'a
+
+Choose animal to feed.
+> _
+```
+
+When the user chooses an animal, another menu should appear showing the specific food that you have in stock to feed it.
+
+```html
+1. Trout
+2. Mackarel
+3. Salmon
+4. Sardine
+
+What is on the menu for the River Dolphin today?
+> _
+```
+
+Once the user chooses a food item, she should be presented with a message.
+
+```html
+The river dolphin ate salmon for a meal.
+
+Press any key to return to the main menu...
+```
+
+### Plant Cultivation Menu
+
+If the user chooses 4 from the main menu, then she should see the following menu, with the plants listed.
 
 ```html
 1. Mountain Apple Tree
@@ -174,6 +211,22 @@ If the user chose to place them in a location that would be over capacity if the
 
 Where would you like to plant the Sun Jade Vine?
 > _
+```
+
+### Arboretum Report Menu
+
+Choosing this option will list all existing biomes, and then list each animal in that biome. Only display the first 8 characters of the id in the report.
+
+```html
+River [157b2efe]
+    River Dolphin (133619c4)
+
+Mountain [bdf33960]
+    Ope'ape'a (bf9ad976)
+    Ope'ape'a (f9dd0afa)
+
+
+Press any key to continue...
 ```
 
 ## Stretch Goals

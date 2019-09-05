@@ -33,10 +33,13 @@ Listed below are the different biomes, or habitats, that exist in the arboretum 
 
 ## Fauna
 
+This is a list of animals that you and your teammates are in charge of raising, feeding _(when needed)_, releasing, and tracking. Animals should not be released into the wild before their recommended release age. Animals should not be fed anything other than their recommended prey.
+
 | | [Pueo](http://www.instanthawaii.com/cgi-bin/hi?!2iETuMmX10OSniaHKbduRinuudfv1t0Mrdvkv221alreoCmOmrnSe4efF62ZRvgOubemm40br8)  | [River Dolphins](https://en.wikipedia.org/wiki/River_dolphin)  | ['Ulae](http://www.instanthawaii.com/cgi-bin/hi?!2iETuMmX10OSniaHKbduR2AnTffmIsOsdivBOjd8f0rhobinnrnarboL82Cbf3frNjaOmenqdlv8)  | [Gold Dust Day Gecko](http://www.instanthawaii.com/cgi-bin/hi?!6dnqdiekKe3ZrlAOTnaXOaONnnaaKb36r8AOuMe9m40N0djAF1C8foEenzrwnmds0boT86dlTvETuae4) | [Nene Goose](http://www.instanthawaii.com/cgi-bin/hi?!8lvkvA2ur5A6TMfz1e0qeoaaKj3Fr2nhn1eXImC0uijRF22lToE6ahmnQtCSeEeHv1bOT9ntn2) | [Kīkākapu](http://www.instanthawaii.com/cgi-bin/hi?!6dnqdiekKe3ZrlAOTnaXOr0anr7fv6dcT0ETuCm9QodaugeRO1bZR1g0ojmYOeCsdfvTOjdaT4) | [Ope'ape'a](https://www.opeapea.org) |
 |---|---|---|---|---|---|--|--|
 | **Location** |  Grassland or Forest | River | River or Swamp | Forest | Grassland | Swamp | Forest or Mountain |
 | **Prey/Food** | Rodents | Fish | Fish | Insects | Vegetation | Fish | Insects and Vegetation |
+| **Minimum Release Age<br/>(in months)** | 8 | 13 | 1 | 2 | 7 | 1 | 5 |
 
 ## Flora
 
@@ -45,7 +48,7 @@ Listed below are the different biomes, or habitats, that exist in the arboretum 
 |**Location**| Forest | Grassland | Mountain | Grassland or Swamp |
 |**Sunlight**| Full | Shade | Partial | Partial |
 |**Seeds Produced**| 8 | 22 | 17 | 0 |
-|**Insecticide Resistance**| Low | High | High | Medium1 |
+|**Insecticide Resistance**| Low | High | High | Medium |
 
 ## Keahua Inventory and Land Lifeline Electronic Repository (KILLER)
 
@@ -64,8 +67,10 @@ When the user first executes KILLER, they should be welcomed to the system and b
 
 1. Annex Biome
 2. Release New Animal
-3. Cultivate New Plant
-4. Show Arboretum Report
+3. Feed Animal
+4. Cultivate New Plant
+5. Show Arboretum Report
+6. Exit
 
 Choose a KILLER option.
 > _

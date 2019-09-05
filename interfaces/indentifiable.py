@@ -1,4 +1,4 @@
-import uuid
+from uuid import uuid1
 
 
 class Identifiable:
